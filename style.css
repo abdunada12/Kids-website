@@ -1,0 +1,490 @@
+/* fullwidth 1440 */
+/* maxwidth: 1280 */
+
+
+/*--------------- General Styling ---------------*/
+html{
+    max-width: 1440px;
+    background-color: #FFFFFF;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color: #FFFFFF */
+}
+body .brushes{
+    position: absolute;
+    z-index: -5;
+    opacity: 0.1;
+    width: 100%;
+    /* mix-blend-mode: color-burn; */
+}
+.brushes img{
+    position: relative;
+    width: 100%;
+}
+.brushes img:first-child{
+    left: 0;
+    transform: rotate(180deg);
+}
+.brushes img:nth-child(2){
+    right: 0%;
+    top: 38vw;
+}
+.brushes img:nth-child(3){
+    top: 150vw;
+}
+.brushes img:nth-child(4){
+    top: 200vw;
+}
+.brushes img:last-child{
+    top: 270vw;
+    transform: rotate(180deg);
+}
+h1{
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+p{
+    color: #672D91;
+}
+
+/*--------------- End of General Styling ---------------*/
+
+
+/*--------------- Header Styling ---------------*/
+
+header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FF1F2A;
+    
+}
+header nav{
+    display: flex;
+    width: 88.89%;
+    margin: 0 auto;
+    justify-content: right;
+    align-items: center;
+    gap: 0 10%;
+}
+header nav .nav-img-container{
+    width: 6%;
+    margin-right: 33.5%;
+    cursor: pointer;
+}
+header nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-nav{
+    width: 12%;
+    gap: 0 12%;
+    margin-right: 0.5%;
+}
+.social-nav img{
+    width: 120%;
+}
+.nav-menu{
+    width: 30%;
+    gap: 0 2%;
+    text-align: left;
+}
+header nav .nav-menu li{
+    text-align: right;
+    font-size: 1.2vw;
+    padding: 5% 5%;
+    border-radius: 25vw;
+    transition: all 0.3s ease-in;
+}
+header nav .nav-menu li a{
+    padding: 35% 0;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+}
+header nav .nav-menu li:hover{
+    background-color: aliceblue;
+}
+header nav .nav-menu li:hover a{
+    color: #FF1F2A;
+
+}
+
+/*--------------- End of Header Styling ---------------*/
+
+/*--------------- Main Styling ---------------*/
+
+/* #region one*/
+#one{
+    width: 88.5%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+#one .main-img {
+    padding: 5% 0;
+}
+#one .main-img img{
+    position: relative;
+    width: 80%;
+    transform: translateX(-50%);
+    left: 50%;
+
+}
+#one .sec-1-text{
+    position: absolute;
+    left: 15%;
+    font-size: 3.5vw;
+    width: 20%;
+    z-index: 2;
+    color: #FBCB00;
+    font-family: cursive;
+    font-weight: bolder;
+}
+#one .sec-1-text h2{
+    margin-bottom: -15%;
+    margin-top: 5%;
+}
+#one .sec-1-text p{
+    font-size: 2.5vw;
+    color: #FBCB00;
+}
+#one .small-shapes {
+    position: absolute;
+    width: 60%;
+    z-index: 2;
+}
+#one .rectangle{
+    position: relative;
+    left: 1%;
+    width: 6%;
+    top: 45vw;
+}
+#one .ellipse{
+    position: relative;
+    left: 65%;
+    width: 6%;
+    top: 57vw;
+}
+#one .polygon{
+    position: relative;
+    left: 120%;
+    width: 6%;
+    top: 53vw;
+}
+#one .rectangle-rotated{
+    position: relative;
+    left: 91%;
+    top: 4vw;
+    transform: rotate(45deg);
+    width: 6%;
+
+}
+/* #endregion */
+
+/* #region two*/
+#two{
+    width: 88.5%;
+    margin: 0 auto;
+    padding: 5% 0 0 0;
+}
+#two .sec-2{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2vw 0;
+    color: #46084E;
+}
+#two .sec-2 .logo{
+    width: 17%;
+    margin: 0 auto;
+}
+#two .sec-2 h2{
+    margin-top: 1%;
+    font-size: 3vw;
+}
+#two .sec-2 p{
+    color: #46084E;
+    width: 40%;
+    text-align: center;
+    margin-top: -4%;
+    font-size: 1.2vw;
+}
+#two .search-bar{
+    position: relative;
+    margin: 0 auto;
+}
+#two .search-bar input{
+    outline: none;
+    border: none;
+    background-color: #EFEFEF;
+    width: 30vw;
+    padding: 1.5vw 5vw;
+    border-radius: 5vw;
+    margin: 0 auto;
+    font-size: 2vw;
+    color: #46084E;
+    font-weight: bolder;
+}
+#two .search-bar input::placeholder{
+    color: #C6C6C6;
+    font-size: 1.2vw;
+}
+#two .search-bar img{
+    position: absolute;
+    width: 7%;
+    left: 88%;
+    top: 25%;
+}
+#two .small-shapes{
+    position: relative;
+    
+}
+#two .small-shapes img:first-child{
+    position: absolute;
+    width: 3.5vw;
+    left: 35vw;
+    top: -35vw;
+}
+#two .small-shapes img:last-child{
+    transform: rotate(45deg);
+    position: absolute;
+    width: 3.5vw;
+    left: -30vw;
+    top: 10vw;
+}
+/* #endregion */
+
+/* #region three*/
+#three{
+    padding: 0 0 35% 0;
+}
+#three .main-img img{
+    position: relative;
+    left: 0;
+    width: 65%;
+}
+#three .sec-3-text{
+    position: absolute;
+    width: 25%;
+    left: 70vw;
+    top: 165vw;
+    font-weight: 600;
+    font-size: 1.1vw;
+}
+#three .sec-3-text h2{
+    font-size: 3.5vw;
+    text-transform: none;
+    color: #46084E;
+}
+#three .sec-3-text p{
+    color: #46084E;
+}
+
+/* #endregion */
+
+/* #region four*/
+
+#four .main-img img{
+    position: relative;
+    left: 7.8%;
+    width: 90%;
+}
+#four .sec-4-text{
+    position: absolute;
+    width: 22%;
+    left: 15%;
+    top: 255vw;
+    font-size: 1vw;
+    z-index: 2;
+    font-weight: bolder;
+}
+#four .sec-4-text h2{
+    font-size: 2.8vw;
+    color: #00BE00;
+}
+#four .sec-4-text p{
+    color: #00BE00;
+    text-align: justify;
+}
+#four .sec-4-text a{
+    font-size: 1.4vw;
+    color: #ffffff;
+    background-color: #FF6C02;
+    font-weight: 400;
+    padding: 0.5vw 1.9vw;
+    border-radius: 2vw;
+    letter-spacing: 0.15vw;
+    display: inline-block;
+    margin-top: 15%;
+}
+
+/* #endregion */
+
+/* #region five*/
+
+#five{
+    padding: 35% 0 35% 0;
+}
+#five .sec-5-text{
+    position: absolute;
+    width: 55%;
+    text-align: center;
+    left: 40vw;
+    top: 363vw;
+    position: absolute;
+    z-index: 2;
+    font-size: 4vw;
+}
+#five .sec-5-text h2{
+    font-weight: 900;
+    color: #ffffff;
+    font-family: cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 8vw;
+}
+#five .main-img{
+    width: 100%;
+}
+#five .main-img img{
+    position: relative;
+    left: 35%;
+    width: 65%;
+}
+
+/* #endregion */
+
+/* #region six*/
+
+#six{
+    /* width: 88.5%; */
+}
+.six-sections{
+    width: 88.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.six-sections div{
+    display: flex;
+    width: 60vw;
+    margin: 5% 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.six-sections .h3-p{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3vw;
+    color: #2051A8;
+    text-align: center;
+}
+.six-sections .h3-p p{
+    color: #2051A8;
+    margin: 0 10%;
+
+}
+.six-sections img{
+    width: 15%;
+    height: min-content;
+    margin: 0 auto;
+}
+.six-sections .st-sec{
+    flex-direction: row;
+}
+.six-sections .nd-sec{
+    flex-direction: row-reverse;
+}
+.six-sections .rd-sec{
+    flex-direction: row;
+}
+/* #endregion */
+
+
+/*--------------- End of Main Styling ---------------*/
+
+
+/*--------------- Footer Styling ---------------*/
+
+footer{
+    position: relative;
+}
+footer a{
+    color: #46084E;
+}
+footer .foot-img{
+    width: 100%;
+    position: relative;
+    bottom: -1vw;
+}
+hr{
+    width: 75%;
+    background-color: #46084E;
+    border: #46084E 0.1px solid;
+    position: relative;
+    bottom: -30vw;
+    z-index: 3;
+}
+.flex-foot{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: -30vw;
+    z-index: 3;
+    left: 17vw;
+    gap: 0 10vw;
+    width: 40vw;
+}
+.flex-foot .contact{
+    font-size: 1.2vw;
+    width: 12vw;
+    color: #46084E;
+}
+.flex-foot .contact p{
+    color: #46084E;
+}
+.flex-foot .foot-menu{
+    padding: 0;
+    /* margin-left: 0 20vw; */
+    font-size: 1.2vw;
+}
+.flex-foot .foot-menu a{
+    display: inline-block;
+    padding: 0.3vw;
+    font-weight: 600;
+    margin: 0.2vw 0;
+}
+.social-foot{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -30vw;
+    z-index: 3;
+    left: 75%;
+    width: 12vw;
+    padding: 0;
+}
+.social-foot img{
+    width: 2.5vw;
+}
+
+/*--------------- End of footer Styling ---------------*/
