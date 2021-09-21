@@ -151,7 +151,6 @@ header nav .nav-menu li:hover a{
     width: 20%;
     z-index: 2;
     color: #FBCB00;
-    font-family: cursive;
     font-weight: bolder;
 }
 #one .sec-1-text h2{
@@ -344,10 +343,10 @@ header nav .nav-menu li:hover a{
 }
 #five .sec-5-text{
     position: absolute;
-    width: 55%;
+    width: 50%;
     text-align: center;
     left: 40vw;
-    top: 363vw;
+    top: 365vw;
     position: absolute;
     z-index: 2;
     font-size: 4vw;
@@ -355,7 +354,6 @@ header nav .nav-menu li:hover a{
 #five .sec-5-text h2{
     font-weight: 900;
     color: #ffffff;
-    font-family: cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     line-height: 8vw;
 }
 #five .main-img{
